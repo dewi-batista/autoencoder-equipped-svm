@@ -3,6 +3,8 @@
 ## Overview:
 This repository contains implementations of kNN, Random Forest, CNN and autoencoding-paired SVM approaches to a multiclass classification task pertaining to handwritten digit.
 
+![pic_1](figures/prot0_pdf.png)
+
 ## Dependencies:
 To use these programs, you need Python installed on your machine along with a series of libraries including:
 - NumPy
@@ -17,8 +19,6 @@ Installing each library can be done using pip by running `pip install <name of l
 
 ## How to run:
 First, ensure that the path of your Python environment is that of the root directory of this repository. Each classification method is contained in the `classification_methods` directory.
-
-`....py`: ?
 
 - `RF_evaluate.py`: evaluates the performance of a random forest on the raw data, features data and the concatenation of the raw and feature data (raw | features) and performs the search for the best values for the parameters. Saves the result in `search_results.txt`. The full search takes about 15 minutes on average machines.
 
