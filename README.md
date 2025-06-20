@@ -1,0 +1,1 @@
+Mostly included because it was what I consider to be my first ML project. I learned a lot from it and think it's a great starting point.
